@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 190px;
+    height: 100vh;
+    align-items: center;
+
+}
+
+
+.right-img{
+    align-self: flex-end;
+    height: 100%;
+}
+
+.left-img{
+    height: 100%;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #E8A0BF;
+    font-size: 3rem;
+   
+}
+
+.inputcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 2px solid #E8A0BF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.your-name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.their-name{
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-left: 10px;
+    border: 2px solid #E8A0BF;
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: #E8A0BF;
+    text-shadow: 1px 1px 1px #000;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    cursor: pointer;
+    font-size: 17px;
+    
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+h2{
+    color: #E8A0BF;
+}
+
+#kissing-heart{
+    display:none;
+}
+
+footer{
+    color: #E8A0BF;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+@media (min-width:319px) and (max-width: 680px){
+
+    #kissing-heart{
+        display: flex;
+        height: 30vh;
+        justify-content: center;
+        margin-left: 90px;
+    }
+    .love-tree{
+        display: none;
+    }
+    .container2{
+        display: block;
+        height: 100vh;
+
+    }
+    h1{
+        display: block;
+        margin-left: 70px;
+        margin-right: 20px;
+        
+    }
+    .your-name{
+        display: block;
+        margin-left: 100px;
+    
+    }
+    .their-name{
+        display: block;
+        margin-left: 100px;
+    }
+    #boton{
+        display: block;
+        margin-left: 110px;
+    }
+
+    h2{ margin-left: 80px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    body{
+        margin: 9px;
+       
+    }
+    footer{
+        margin-left: 35%;
+    }
+}
+
