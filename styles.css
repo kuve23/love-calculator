@@ -111,7 +111,7 @@ footer{
     }
     h1{
         display: block;
-        margin-right: 60px;
+        margin-right: 80px;
        
         
     }
@@ -125,11 +125,14 @@ footer{
         
     }
     #boton{
+        margin-right: 80px;
         display: block;
+        
         
     }
 
     h2{ 
+       
         margin-right: 20px;
         text-align: center;
     }
@@ -138,4 +141,5 @@ footer{
         margin-bottom: 50px;
     }
 }
+
 
