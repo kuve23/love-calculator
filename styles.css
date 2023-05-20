@@ -84,7 +84,7 @@ footer{
     margin-left: 50px;
 }
 
-@media (min-width:319px) and (max-width: 680px){
+@media (max-width: 480px){
 
     #kissing-heart{
         display: flex;
@@ -102,7 +102,7 @@ footer{
     }
     h1{
         display: block;
-        margin-left: 70px;
+        margin-left: 60px;
         margin-right: 20px;
         
     }
@@ -124,13 +124,10 @@ footer{
         margin-right: 50px;
         text-align: center;
     }
-
-    body{
-        margin: 9px;
        
-    }
+
     footer{
-        margin-left: 35%;
+        margin-left: 40%;
     }
 }
 
